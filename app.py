@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 from transformers import pipeline
 from langchain.llms import HuggingFacePipeline
 
-st.set_page_config(page_title="PDF Q&A", page_icon="📄")
+st.set_page_config(page_title="Upload and Ask", page_icon="📄")
 st.title("📄 PDF Q&A with Hugging Face + LangChain")
 
 # -------------------------
